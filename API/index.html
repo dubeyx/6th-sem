@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Train Status</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Live Train Status</h1>
+    <form id="train-status-form">
+      <label for="train-number">Enter Train Number:</label>
+      <input type="text" id="train-number" name="train-number" required>
+
+      <label for="train-date">Enter Date:</label>
+      <input type="date" id="train-date" name="train-date" required>
+
+      <button type="submit" id="submit-button">Get Status</button>
+    </form>
+
+    <div id="train-status"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
